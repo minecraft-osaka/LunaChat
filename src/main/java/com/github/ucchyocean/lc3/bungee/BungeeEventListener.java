@@ -68,7 +68,7 @@ public class BungeeEventListener implements Listener {
      * プレイヤーがチャット発言したときに呼び出されるメソッド
      * @param event
      */
-    @EventHandler(priority=EventPriority.LOWEST)
+    // @EventHandler(priority=EventPriority.LOWEST)
     public void onAsyncPlayerChatLowest(ChatEvent event) {
         if ( event.isCancelled() ) return;
         if ( matchesEventPriority(EventPriority.LOWEST) ) {
@@ -80,7 +80,7 @@ public class BungeeEventListener implements Listener {
      * プレイヤーがチャット発言したときに呼び出されるメソッド
      * @param event
      */
-    @EventHandler(priority=EventPriority.LOW)
+    // @EventHandler(priority=EventPriority.LOW)
     public void onAsyncPlayerChatLow(ChatEvent event) {
         if ( event.isCancelled() ) return;
         if ( matchesEventPriority(EventPriority.LOW) ) {
@@ -92,7 +92,7 @@ public class BungeeEventListener implements Listener {
      * プレイヤーがチャット発言したときに呼び出されるメソッド
      * @param event
      */
-    @EventHandler(priority=EventPriority.NORMAL)
+    // @EventHandler(priority=EventPriority.NORMAL)
     public void onAsyncPlayerChatNormal(ChatEvent event) {
         if ( event.isCancelled() ) return;
         if ( matchesEventPriority(EventPriority.NORMAL) ) {
@@ -104,7 +104,7 @@ public class BungeeEventListener implements Listener {
      * プレイヤーがチャット発言したときに呼び出されるメソッド
      * @param event
      */
-    @EventHandler(priority=EventPriority.HIGH)
+    // @EventHandler(priority=EventPriority.HIGH)
     public void onAsyncPlayerChatHigh(ChatEvent event) {
         if ( event.isCancelled() ) return;
         if ( matchesEventPriority(EventPriority.HIGH) ) {
@@ -116,7 +116,7 @@ public class BungeeEventListener implements Listener {
      * プレイヤーがチャット発言したときに呼び出されるメソッド
      * @param event
      */
-    @EventHandler(priority=EventPriority.HIGHEST)
+    // @EventHandler(priority=EventPriority.HIGHEST)
     public void onAsyncPlayerChatHighest(ChatEvent event) {
         if ( event.isCancelled() ) return;
         if ( matchesEventPriority(EventPriority.HIGHEST) ) {
